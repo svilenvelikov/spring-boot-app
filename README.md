@@ -16,6 +16,8 @@ playing with the spring boot and postgres
 
 `postgres=# \c demodb`
 
+* Insert some data
+
 `demodb=# CREATE EXTENSION "uuid-ossp";`
 
 `demodb=# INSERT INTO person (id, name) VALUES (uuid_generate_v4(), 'Svilen Velikov');`
